@@ -1,0 +1,182 @@
+[
+  {
+    "cod": 1,
+    "categoria": "Prato",
+    "nome_produto": "Picanha na Chapa",
+    "preco": 59.90,
+    "unidade_medida": "prato",
+    "tag": ["carne","grelhado"],
+    "link_foto": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092"
+  },
+  {
+    "cod": 2,
+    "categoria": "Prato",
+    "nome_produto": "Frango Grelhado com Legumes",
+    "preco": 34.90,
+    "unidade_medida": "prato",
+    "tag": ["frango"],
+    "link_foto": "https://images.unsplash.com/photo-1604908554165-5c7f5c0c2c41"
+  },
+  {
+    "cod": 3,
+    "categoria": "Prato",
+    "nome_produto": "Lasanha à Bolonhesa",
+    "preco": 39.90,
+    "unidade_medida": "prato",
+    "tag": ["massa"],
+    "link_foto": "https://images.unsplash.com/photo-1603133872878-684f208fb84b"
+  },
+  {
+    "cod": 4,
+    "categoria": "Prato",
+    "nome_produto": "Risoto de Camarão",
+    "preco": 49.90,
+    "unidade_medida": "prato",
+    "tag": ["frutos do mar"],
+    "link_foto": "https://images.unsplash.com/photo-1617196038435-0a0b2d7f6e6d"
+  },
+  {
+    "cod": 5,
+    "categoria": "Prato",
+    "nome_produto": "Filé de Tilápia com Arroz",
+    "preco": 36.90,
+    "unidade_medida": "prato",
+    "tag": ["peixe"],
+    "link_foto": "https://images.unsplash.com/photo-1559847844-5315695dadae"
+  },
+  {
+    "cod": 6,
+    "categoria": "Prato",
+    "nome_produto": "Hambúrguer Artesanal",
+    "preco": 29.90,
+    "unidade_medida": "unidade",
+    "tag": ["lanche"],
+    "link_foto": "https://images.unsplash.com/photo-1550547660-d9450f859349"
+  },
+  {
+    "cod": 7,
+    "categoria": "Prato",
+    "nome_produto": "Espaguete ao Alho e Óleo",
+    "preco": 24.90,
+    "unidade_medida": "prato",
+    "tag": ["massa"],
+    "link_foto": "https://images.unsplash.com/photo-1589308078054-8328b6e2c84b"
+  },
+  {
+    "cod": 8,
+    "categoria": "Porção",
+    "nome_produto": "Batata Frita",
+    "preco": 18.90,
+    "unidade_medida": "porção",
+    "tag": ["petisco"],
+    "link_foto": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5"
+  },
+  {
+    "cod": 9,
+    "categoria": "Porção",
+    "nome_produto": "Mandioca Frita",
+    "preco": 17.90,
+    "unidade_medida": "porção",
+    "tag": ["petisco"],
+    "link_foto": "https://images.unsplash.com/photo-1625944525903-0d5bbd8b5e1b"
+  },
+  {
+    "cod": 10,
+    "categoria": "Porção",
+    "nome_produto": "Calabresa Acebolada",
+    "preco": 22.90,
+    "unidade_medida": "porção",
+    "tag": ["carne"],
+    "link_foto": "https://images.unsplash.com/photo-1604908176997-431c9f6c5e1c"
+  },
+  {
+    "cod": 11,
+    "categoria": "Porção",
+    "nome_produto": "Isca de Frango",
+    "preco": 21.90,
+    "unidade_medida": "porção",
+    "tag": ["frango"],
+    "link_foto": "https://images.unsplash.com/photo-1562967916-eb82221dfb92"
+  },
+  {
+    "cod": 12,
+    "categoria": "Porção",
+    "nome_produto": "Bolinho de Bacalhau",
+    "preco": 25.90,
+    "unidade_medida": "porção",
+    "tag": ["peixe"],
+    "link_foto": "https://images.unsplash.com/photo-1604908177022-0a9a1f1add63"
+  },
+  {
+    "cod": 13,
+    "categoria": "Porção",
+    "nome_produto": "Torresmo Crocante",
+    "preco": 19.90,
+    "unidade_medida": "porção",
+    "tag": ["carne"],
+    "link_foto": "https://images.unsplash.com/photo-1604908812731-4c0f0c2c4a74"
+  },
+  {
+    "cod": 14,
+    "categoria": "Bebida",
+    "nome_produto": "Refrigerante Lata",
+    "preco": 6.90,
+    "unidade_medida": "lata",
+    "tag": ["gelado"],
+    "link_foto": "https://images.unsplash.com/photo-1581636625402-29b2a704ef13"
+  },
+  {
+    "cod": 15,
+    "categoria": "Bebida",
+    "nome_produto": "Suco Natural",
+    "preco": 8.90,
+    "unidade_medida": "copo",
+    "tag": ["natural"],
+    "link_foto": "https://images.unsplash.com/photo-1553531889-56cc480ac5cb"
+  },
+  {
+    "cod": 16,
+    "categoria": "Bebida",
+    "nome_produto": "Água Mineral",
+    "preco": 4.90,
+    "unidade_medida": "garrafa",
+    "tag": ["sem gas"],
+    "link_foto": "https://images.unsplash.com/photo-1564419320408-38e24e0380d1"
+  },
+  {
+    "cod": 17,
+    "categoria": "Bebida",
+    "nome_produto": "Cerveja Long Neck",
+    "preco": 9.90,
+    "unidade_medida": "garrafa",
+    "tag": ["alcool"],
+    "link_foto": "https://images.unsplash.com/photo-1514361892635-e9559c8a6c77"
+  },
+  {
+    "cod": 18,
+    "categoria": "Bebida",
+    "nome_produto": "Caipirinha",
+    "preco": 14.90,
+    "unidade_medida": "copo",
+    "tag": ["coquetel"],
+    "link_foto": "https://images.unsplash.com/photo-1582571352039-ec2c2f5d1f1b"
+  },
+  {
+    "cod": 19,
+    "categoria": "Bebida",
+    "nome_produto": "Chá Gelado",
+    "preco": 7.90,
+    "unidade_medida": "copo",
+    "tag": ["gelado"],
+    "link_foto": "https://images.unsplash.com/photo-1556679343-c7306c1976bc"
+  },
+  {
+    "cod": 20,
+    "categoria": "Bebida",
+    "nome_produto": "Café Expresso",
+    "preco": 5.90,
+    "unidade_medida": "xícara",
+    "tag": ["quente"],
+    "link_foto": "https://images.unsplash.com/photo-1509042239860-f550ce710b93"
+  }
+]
