@@ -40,6 +40,10 @@ function renderMain() {
         newSection.id = 'sectionCategoria_' + categoria_name;
         newSection.appendChild(textoCategoria);
 
+        btn.addEventListener('click', () => {
+            newSection.scrollIntoView({ behavior: 'smooth' });
+        }); 
+
         botoes.appendChild(btn);
         mainContent.appendChild(newSection);
 
@@ -72,39 +76,4 @@ function renderMain() {
 
     })
 
-}
-
-function render() {
-    const content = document.getElementById('sectionCategoria1');
-    const botoes = document.getElementById('botoesCategoria');
-
-    categorias.forEach(p => {
-        const btn = document.createElement('button');
-
-        btn.innerText = p;
-
-        botoes.appendChild(btn);
-    })
-
-    itens.forEach(p =>{
-        const cardItem = document.createElement('div');
-        cardItem.classList.add('cardItens');
-
-        cardItem.innerHTML = `
-            <div class="colunaInfoItem">
-                
-                <h2>${p.nome_produto.toUpperCase()}</h2>
-                <p>${p.descricao}</p>
-                <div>${p.tag[0].toUpperCase()}</div>
-                <h3>R$ ${p.preco.toFixed(2)}</h3>
-            </div>
-
-            <div class="colunaFoto">
-                <img class="fotoItemCard" src="${p.link_foto}" alt="imagem ilustrativa">
-                <p>Cod: ${p.cod}</p>
-            </div>
-        `;
-
-        content.appendChild(cardItem);      
-    })
 }
