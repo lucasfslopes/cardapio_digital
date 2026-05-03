@@ -18,8 +18,7 @@ header img{
     align-self: center;
 }
 
-nav {
-    width: 100%;    
+nav {  
     display: flex;
     padding: 10px;
     gap: 5px;
@@ -44,6 +43,28 @@ main {
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+#cartBtn{
+    position: sticky;
+    align-self: end;
+    bottom: 4%;
+    right: 5%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: white;
+    background: linear-gradient(25deg, red, yellow);
+    border: 0;
+    padding: 10;
+}
+
+#cartBtn img{
+    position: relative;
+    bottom: -4px;
+    left: -4px;
+    width: 50px;
+    height: 50px;
 }
 
 .titleSection{
