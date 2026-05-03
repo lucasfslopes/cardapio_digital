@@ -1,7 +1,7 @@
 [
   {
     "cod": 1,
-    "categoria": "Prato",
+    "categoria": "Pratos",
     "nome_produto": "Picanha na Chapa",
     "preco": 59.90,
     "unidade_medida": "prato",
@@ -11,7 +11,7 @@
   },
   {
     "cod": 2,
-    "categoria": "Prato",
+    "categoria": "Pratos",
     "nome_produto": "Frango Grelhado com Legumes",
     "preco": 34.90,
     "unidade_medida": "prato",
@@ -21,7 +21,7 @@
   },
   {
     "cod": 3,
-    "categoria": "Prato",
+    "categoria": "Pratos",
     "nome_produto": "Lasanha à Bolonhesa",
     "preco": 39.90,
     "unidade_medida": "prato",
@@ -31,7 +31,7 @@
   },
   {
     "cod": 4,
-    "categoria": "Prato",
+    "categoria": "Pratos",
     "nome_produto": "Risoto de Camarão",
     "preco": 49.90,
     "unidade_medida": "prato",
@@ -41,7 +41,7 @@
   },
   {
     "cod": 5,
-    "categoria": "Prato",
+    "categoria": "Pratos",
     "nome_produto": "Filé de Tilápia com Arroz",
     "preco": 36.90,
     "unidade_medida": "prato",
@@ -51,7 +51,7 @@
   },
   {
     "cod": 6,
-    "categoria": "Prato",
+    "categoria": "Pratos",
     "nome_produto": "Hambúrguer Artesanal",
     "preco": 29.90,
     "unidade_medida": "unidade",
@@ -61,10 +61,10 @@
   },
   {
     "cod": 7,
-    "categoria": "Prato",
+    "categoria": "Pratos",
     "nome_produto": "Espaguete ao Alho e Óleo",
     "preco": 24.90,
-    "unidade_medida": "prato",
+    "unidade_medida": "pratos",
     "tag": ["massa"],
     "descricao": "Espaguete leve com alho dourado e azeite de oliva extra virgem.",
     "link_foto": "https://images.unsplash.com/photo-1589308078054-8328b6e2c84b"
