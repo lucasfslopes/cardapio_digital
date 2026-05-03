@@ -1,5 +1,7 @@
 body {
-    max-width: 402px;
+    display: flex;
+    flex-direction: column;
+    //max-width: 402px;
     margin: 0px;
     background-color: rgb(255, 255, 255);
 }
