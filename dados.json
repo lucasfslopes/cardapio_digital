@@ -6,6 +6,7 @@
     "preco": 59.90,
     "unidade_medida": "prato",
     "tag": ["carne","grelhado"],
+    "descricao": "Suculenta picanha grelhada na chapa, servida quente e no ponto ideal.",
     "link_foto": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092"
   },
   {
@@ -15,6 +16,7 @@
     "preco": 34.90,
     "unidade_medida": "prato",
     "tag": ["frango"],
+    "descricao": "Peito de frango grelhado acompanhado de legumes frescos e temperados.",
     "link_foto": "https://images.unsplash.com/photo-1604908554165-5c7f5c0c2c41"
   },
   {
@@ -24,6 +26,7 @@
     "preco": 39.90,
     "unidade_medida": "prato",
     "tag": ["massa"],
+    "descricao": "Lasanha tradicional com molho bolonhesa, queijo gratinado e massa artesanal.",
     "link_foto": "https://images.unsplash.com/photo-1603133872878-684f208fb84b"
   },
   {
@@ -33,6 +36,7 @@
     "preco": 49.90,
     "unidade_medida": "prato",
     "tag": ["frutos do mar"],
+    "descricao": "Risoto cremoso preparado com camarões selecionados e temperos especiais.",
     "link_foto": "https://images.unsplash.com/photo-1617196038435-0a0b2d7f6e6d"
   },
   {
@@ -42,6 +46,7 @@
     "preco": 36.90,
     "unidade_medida": "prato",
     "tag": ["peixe"],
+    "descricao": "Filé de tilápia grelhado servido com arroz branco e acompanhamentos.",
     "link_foto": "https://images.unsplash.com/photo-1559847844-5315695dadae"
   },
   {
@@ -51,6 +56,7 @@
     "preco": 29.90,
     "unidade_medida": "unidade",
     "tag": ["lanche"],
+    "descricao": "Hambúrguer artesanal com carne suculenta, queijo e ingredientes frescos.",
     "link_foto": "https://images.unsplash.com/photo-1550547660-d9450f859349"
   },
   {
@@ -60,6 +66,7 @@
     "preco": 24.90,
     "unidade_medida": "prato",
     "tag": ["massa"],
+    "descricao": "Espaguete leve com alho dourado e azeite de oliva extra virgem.",
     "link_foto": "https://images.unsplash.com/photo-1589308078054-8328b6e2c84b"
   },
   {
@@ -69,6 +76,7 @@
     "preco": 18.90,
     "unidade_medida": "porção",
     "tag": ["petisco"],
+    "descricao": "Porção de batatas fritas crocantes por fora e macias por dentro.",
     "link_foto": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5"
   },
   {
@@ -78,6 +86,7 @@
     "preco": 17.90,
     "unidade_medida": "porção",
     "tag": ["petisco"],
+    "descricao": "Mandioca frita dourada e crocante, perfeita para compartilhar.",
     "link_foto": "https://images.unsplash.com/photo-1625944525903-0d5bbd8b5e1b"
   },
   {
@@ -87,6 +96,7 @@
     "preco": 22.90,
     "unidade_medida": "porção",
     "tag": ["carne"],
+    "descricao": "Calabresa fatiada refogada com cebolas douradas e temperos.",
     "link_foto": "https://images.unsplash.com/photo-1604908176997-431c9f6c5e1c"
   },
   {
@@ -96,6 +106,7 @@
     "preco": 21.90,
     "unidade_medida": "porção",
     "tag": ["frango"],
+    "descricao": "Tiras de frango empanadas e fritas, crocantes e saborosas.",
     "link_foto": "https://images.unsplash.com/photo-1562967916-eb82221dfb92"
   },
   {
@@ -105,6 +116,7 @@
     "preco": 25.90,
     "unidade_medida": "porção",
     "tag": ["peixe"],
+    "descricao": "Bolinhos de bacalhau tradicionais, crocantes por fora e macios por dentro.",
     "link_foto": "https://images.unsplash.com/photo-1604908177022-0a9a1f1add63"
   },
   {
@@ -114,6 +126,7 @@
     "preco": 19.90,
     "unidade_medida": "porção",
     "tag": ["carne"],
+    "descricao": "Torresmo crocante e bem temperado, ideal como petisco.",
     "link_foto": "https://images.unsplash.com/photo-1604908812731-4c0f0c2c4a74"
   },
   {
@@ -123,6 +136,7 @@
     "preco": 6.90,
     "unidade_medida": "lata",
     "tag": ["gelado"],
+    "descricao": "Refrigerante gelado em lata, refrescante e pronto para consumo.",
     "link_foto": "https://images.unsplash.com/photo-1581636625402-29b2a704ef13"
   },
   {
@@ -132,6 +146,7 @@
     "preco": 8.90,
     "unidade_medida": "copo",
     "tag": ["natural"],
+    "descricao": "Suco natural preparado na hora com frutas frescas.",
     "link_foto": "https://images.unsplash.com/photo-1553531889-56cc480ac5cb"
   },
   {
@@ -141,6 +156,7 @@
     "preco": 4.90,
     "unidade_medida": "garrafa",
     "tag": ["sem gas"],
+    "descricao": "Água mineral pura e refrescante, ideal para hidratação.",
     "link_foto": "https://images.unsplash.com/photo-1564419320408-38e24e0380d1"
   },
   {
@@ -150,6 +166,7 @@
     "preco": 9.90,
     "unidade_medida": "garrafa",
     "tag": ["alcool"],
+    "descricao": "Cerveja long neck gelada, perfeita para acompanhar refeições.",
     "link_foto": "https://images.unsplash.com/photo-1514361892635-e9559c8a6c77"
   },
   {
@@ -159,6 +176,7 @@
     "preco": 14.90,
     "unidade_medida": "copo",
     "tag": ["coquetel"],
+    "descricao": "Clássica caipirinha com limão, açúcar e cachaça.",
     "link_foto": "https://images.unsplash.com/photo-1582571352039-ec2c2f5d1f1b"
   },
   {
@@ -168,6 +186,7 @@
     "preco": 7.90,
     "unidade_medida": "copo",
     "tag": ["gelado"],
+    "descricao": "Chá gelado refrescante, levemente adoçado.",
     "link_foto": "https://images.unsplash.com/photo-1556679343-c7306c1976bc"
   },
   {
@@ -177,6 +196,7 @@
     "preco": 5.90,
     "unidade_medida": "xícara",
     "tag": ["quente"],
+    "descricao": "Café expresso encorpado, preparado na hora.",
     "link_foto": "https://images.unsplash.com/photo-1509042239860-f550ce710b93"
   }
 ]
