@@ -30,7 +30,7 @@ function renderizarItens(categorias, itens) {
         newSection.appendChild(textoCategoria);
 
         btn.addEventListener('click', () => {
-            newSection.scrollIntoView({ behavior: 'smooth' });
+            window.scrollTo({ top: newSection.getBoundingClientRect().top + window.scrollY - 50, behavior: 'smooth'});
         }); 
 
         botoes.appendChild(btn);
