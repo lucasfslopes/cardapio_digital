@@ -4,27 +4,24 @@ body {
     font-family: sans-serif;
 }
 
-footer {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 nav {
-
+    margin: 0px 5px 0px 5px;
 }
 
 nav button{
     background-color: rgb(255, 255, 255);
     border-radius: 3px;
-    border: 0.8px solid rgb(196, 196, 196);
+    border: 0.8px solid rgb(223, 223, 223);
+    padding: 5px 15px;
 }
 
 .cardItens{
-    height: 180px;
+    height: 150px;
     display:flex;
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 10px 5px 10px 5px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
 }
 
 .colunaInfoItem {
@@ -32,26 +29,37 @@ nav button{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items:flex-start;
     margin: 10px;
 }
 
 .colunaInfoItem h2 {
     margin: 0px;
-    font-size: 14pt;
+    font-size: 10pt;
+    color: rgb(50, 50, 50);
 }
 
 .colunaInfoItem p {
     margin: 0px;
-    height: 90px;
+    height: 65px;
+    font-size: 10pt;
     line-height: 1;
+    text-align: justify;
+    color: rgb(50, 50, 50);
+}
+
+.colunaInfoItem div {
+    font-size: 8pt;
+    color: rgb(50, 50, 50);
+    border: 0.8px solid rgb(223, 223, 223);
+    border-radius: 15px;
+    padding: 4px 8px;
 }
 
 .colunaInfoItem h3 {
     margin: 0px;
-}
-
-.colunaInfoItem div {
-    margin: 0px;
+    font-size: 10pt;
+    color: rgb(50, 50, 50);
 }
 
 .colunaFoto {
@@ -62,4 +70,10 @@ nav button{
 .fotoItemCard {
     width: 100%;
     border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
