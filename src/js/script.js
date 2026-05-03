@@ -1,31 +1,20 @@
-let itens = [];
-let categorias = [];
-
-
 document.addEventListener('DOMContentLoaded', async () => {
-    await carregarItens();
-})
-
-async function carregarItens() {
     try{
         const res = await fetch('dados.json'); 
-        itens = await res.json();
+        const itens = await res.json();
 
-        categorias = [...new Set(itens.map(item => item.categoria))];
-
-        //console.log("Dados:", categorias);
-        renderMain();
+        const categorias = [...new Set(itens.map(item => item.categoria))];
+        renderizarItens(categorias, itens);
 
     } catch(e) {
         console.error("Erro no JSON:", e);
     }
-}
+})
 
-function renderMain() {
+function renderizarItens(categorias, itens) {
     const mainContent = document.getElementById('main');
     const botoes = document.getElementById('botoesCategoria');
     
-
     categorias.forEach(categoria_name => {
         const btn = document.createElement('button');
         const newSection = document.createElement('section');
@@ -49,9 +38,9 @@ function renderMain() {
 
         const sectionsContent = document.getElementById('sectionCategoria_' + categoria_name);
 
-        const filtrado = itens.filter(p => p.categoria === categoria_name);
+        const filtradoPorCategoria = itens.filter(p => p.categoria === categoria_name);
         
-        filtrado.forEach(p =>{
+        filtradoPorCategoria.forEach(p =>{
             const cardItem = document.createElement('div');
             cardItem.classList.add('cardItens');
 
@@ -72,8 +61,5 @@ function renderMain() {
 
             sectionsContent.appendChild(cardItem);      
         })
-
-
     })
-
 }
