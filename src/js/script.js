@@ -26,6 +26,7 @@ function mostrarItens() {
 
         cardItem.innerHTML = `
             <div class="colunaInfoItem">
+                
                 <h2>${p.nome_produto.toUpperCase()}</h2>
                 <p>${p.descricao}</p>
                 <div>${p.tag[0].toUpperCase()}</div>
@@ -34,11 +35,10 @@ function mostrarItens() {
 
             <div class="colunaFoto">
                 <img class="fotoItemCard" src="${p.link_foto}" alt="imagem ilustrativa">
+                <p>Cod: ${p.cod}</p>
             </div>
         `;
 
         content.appendChild(cardItem);      
     })
-
-    
 }
